@@ -89,7 +89,7 @@ print(soup)
 "\r\n\r\n<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\r\n \r\n<html xmlns="http://www.w3.org/1999/xhtml" >\r\n  <head>\r\n    <title>주간 베스트  : 알라딘</title>\r\n\r\n\t<meta property="og:type" content="website" />\r\n\t<meta property="og:title" content="베스트셀러 : 알라딘" />\r\n\t<meta property="og:url" content="https://www.aladin.co.kr/shop/common/wbest.aspx?BranchType=1&BestType=Bestseller" />\r\n\t<meta property="og:image" content="https://image.aladin.co.kr/img/logo_big.jpg" />\r\n\r\n\t<meta name="twitter:card" content="summary" />\r\n\t<meta name="twitter:title" content="베스트셀러 : 알라딘" />\r\n\t<meta name="twitter:url" content="https://www.aladin.co.kr/shop/common/wbest.aspx?BranchType=1&BestType=Bestseller" />\r\n\t<meta name="twitter:image" content="https://image.aladin.co.kr/img/logo_big.jpg" />\r\n\r\n\t<link rel="canonical" href="https://www.aladin.co.kr/shop/common/wbest.aspx?BranchType=1&BestType=Bestseller" /"
 ```
 
-html로 다시 변환된 텍스트트
+html로 다시 변환된 텍스트
 ```python
 BeautifulSoup(soup, 'html.parser')
 
